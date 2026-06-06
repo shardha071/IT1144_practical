@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>work 11</title>
+        <link rel="stylesheet" href="work11.css">
+		<style>
+*{
+    margin:0;
+    padding:0;		
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(63, 62, 62);
+    padding-top: 0px;
+}
+
+.logo h1{
+     color:rgb(112, 107, 5);
+     font-size: 20px;
+     padding: 15px;
+     margin: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap:20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(244, 239, 239);
+    margin: 8px;
+    padding: 10px;
+    border-radius: 8px;
+}
+nav ul li a:hover{
+    color:rgb(1, 17, 17);
+    background-color: rgb(171, 238, 216);
+}
+.main {
+    position: relative; 
+    width: 100%;
+    height: 500px;
+    overflow: hidden; 
+}
+
+.img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; 
+	object-position:center;
+    z-index: 1; 
+}
+
+.cudu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+    text-align: center;
+    font-size: 30px;
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    width: 100%; 
+}
+
+.btn1 button{
+    padding:15px;
+    margin:10px;
+    color:rgb(15, 14, 14);
+    background-color: rgb(238, 238, 147);
+    font-size: 20px;
+    border-radius: 20px;
+    border:2px solid rgb(184, 216, 107);
+}
+
+		</style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="logo">
+              <h1>End Originate</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+		<div class="img">
+		 <img src="C:\Users\DHANUSHKA\Desktop\university\html\laptop.webp">
+         </div>
+		   <div class="cudu">
+         <p>Welcome To Our Studio !</p>
+         <h2>It's Nice To Meet You</h2>
+
+         <div class="btn1">
+            <button type="submit">subscribe</button>
+         </div>
+            </div>
+        </div>
+
+
+        
